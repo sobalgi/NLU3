@@ -1,0 +1,41 @@
+
+m ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         (None, 60)                0         
+_________________________________________________________________
+embedding_1 (Embedding)      (None, 60, 200)           2261600   
+_________________________________________________________________
+bidirectional_1 (Bidirection (None, 60, 200)           240800    
+_________________________________________________________________
+crf_1 (CRF)                  (None, 60, 3)             618       
+=================================================================
+Total params: 2,503,018
+Trainable params: 2,503,018
+Non-trainable params: 0
+_________________________________________________________________
+None
+Train on 2960 samples, validate on 329 samples
+Epoch 1/5
+2018-04-21 00:48:20.553673: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2960/2960 [==============================] - 21s 7ms/step - loss: 7.2193 - acc: 0.8683 - val_loss: 7.0259 - val_acc: 0.8614
+Epoch 2/5
+2960/2960 [==============================] - 18s 6ms/step - loss: 7.0286 - acc: 0.8945 - val_loss: 6.9682 - val_acc: 0.8811
+Epoch 3/5
+2960/2960 [==============================] - 19s 6ms/step - loss: 6.9287 - acc: 0.9278 - val_loss: 6.9054 - val_acc: 0.9019
+Epoch 4/5
+2960/2960 [==============================] - 19s 6ms/step - loss: 6.8714 - acc: 0.9477 - val_loss: 6.9086 - val_acc: 0.9046
+Epoch 5/5
+2960/2960 [==============================] - 19s 6ms/step - loss: 6.8331 - acc: 0.9627 - val_loss: 6.8884 - val_acc: 0.9104
+Accuracy Score 0.970719489981785
+Macro F1 Score 0.7217191732421222
+Micro F1 Score 0.970719489981785
+Weighted F1 Score 0.9702292380815182
+Precision Score 0.9712019492333779
+Recall Score 0.970719489981785
+Confusion Matrix [[20808    91   170]
+ [  212   266    58]
+ [  104     8   243]]
+

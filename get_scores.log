@@ -1,0 +1,53 @@
+imple Word Tagger****************
+Number of predicates: 11307
+Accuracy Score 0.8775817880295492
+Macro F1 Score 0.5066392447315715
+Micro F1 Score 0.8775817880295492
+Weighted F1 Score 0.8467016274371182
+Precision Score 0.8577630956188336
+Recall Score 0.8775817880295492
+Confusion Matrix
+ b'D' b'O' b'T' 
+ [[ 120  408    0]
+ [  59 5644   24]
+ [   2  319   57]]
+*************Embedding Tagger****************
+Number of predicates: 1057836
+Accuracy Score 0.92054877129504
+Macro F1 Score 0.7662166019334148
+Micro F1 Score 0.92054877129504
+Weighted F1 Score 0.9167228689506755
+Precision Score 0.9156864311127895
+Recall Score 0.92054877129504
+Confusion Matrix
+ b'D' b'O' b'T' 
+ [[ 340  188    0]
+ [ 106 5553   68]
+ [   1  164  213]]
+*************Simple Word and Embedding Tagger****************
+Number of predicates: 1069211
+Accuracy Score 0.92054877129504
+Macro F1 Score 0.765823231762564
+Micro F1 Score 0.92054877129504
+Weighted F1 Score 0.9167957828837299
+Precision Score 0.9156927993038989
+Recall Score 0.92054877129504
+Confusion Matrix
+ b'D' b'O' b'T' 
+ [[ 341  185    2]
+ [ 107 5552   68]
+ [   1  164  213]]
+*************Simple Word and POS Tagger****************
+Number of predicates: 22657
+Accuracy Score 0.8950701040253279
+Macro F1 Score 0.6389817524475199
+Micro F1 Score 0.895070104025328
+Weighted F1 Score 0.8814885629273305
+Precision Score 0.8829552966776667
+Recall Score 0.8950701040253279
+Confusion Matrix
+ b'D' b'O' b'T' 
+ [[ 249  277    2]
+ [ 109 5577   41]
+ [   7  260  111]]
+
