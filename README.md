@@ -19,7 +19,8 @@ keras_contrib - `pip3 install --user git+https://www.github.com/keras-team/keras
 Instructions :
 
     Create splits, models and output folders and copy mallet if not present.
+    Execute create_data_splits.py to create the data splits required for mallet.
     Execute sh train_mallet.sh first to create the models.
     Execute sh get_scores.sh to get the test scores.
-    Execute python3 neural.py to run the Bi-LSTM with CRF model.
+    Execute python3 sequential_NER.py to run the Bi-LSTM with CRF model.
 
