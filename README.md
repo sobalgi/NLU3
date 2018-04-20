@@ -24,3 +24,6 @@ Instructions :
     Execute sh get_scores.sh to get the test scores.
     Execute python3 sequential_NER.py to run the Bi-LSTM with CRF model.
 
+Log files : 
+    get_scores.log : logs running from get_scores.sh
+    sequential_NER.log : logs from running sequential_NER.py
