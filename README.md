@@ -5,15 +5,15 @@ Please use python3 for compatibility.
 
 Please check the requirements.txt and install the following packages.
 
-nltk - 'pip3 install --user nltk'
+nltk - `pip3 install --user nltk`
 
-gensim - 'pip3 install --user gensim'
+gensim - `pip3 install --user gensim`
 
-tensorflow - 'pip install --user tensorflow'
+tensorflow - `pip install --user tensorflow`
 
-keras - 'pip3 install --user keras'
+keras - `pip3 install --user keras`
 
-keras_contrib - 'pip3 install --user git+https://www.github.com/keras-team/keras-contrib.git'
+keras_contrib - `pip3 install --user git+https://www.github.com/keras-team/keras-contrib.git`
 
 Instructions :
 
