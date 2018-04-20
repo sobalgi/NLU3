@@ -2,7 +2,7 @@
 NLU Assignment 3
 
 Please use python3 for compatibility.
-
+Mallet should be downloaded into the same folder as git repo folder with folder name `mallet`
 Please check the requirements.txt and install the following packages.
 
 nltk - `pip3 install --user nltk`
